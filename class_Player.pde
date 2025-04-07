@@ -13,9 +13,12 @@ class Player {
     pos.add(velo);
   }
   void gravity() {
-    pos.y+=3;
+    pos.y+=1.5;
   }
   void right() {
     pos.x+=20;
+  }
+  void left() {
+    pos.x+=-20;
   }
 }
